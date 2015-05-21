@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../bower_components/materialize/dist/css/materialize.css"  media="screen,projection"/>
+    <!--Import personal css file-->
+    <link type="text/css" rel="stylesheet" href="css/notification.css"/>
+    <link type="text/css" rel="stylesheet" href="css/installCtrl.css"/>
+    <link type="text/css" rel="stylesheet" href="css/update.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/card.css"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+
+<body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="../bower_components/jquery-ui/jquery-ui.js"></script>
+    <script type="text/javascript" src="../bower_components/materialize/dist/js/materialize.js"></script>
+
+    <!--Import personal js files-->
+    <script type="text/javascript" src="js/notification.js"></script>
+    <script type="text/javascript" src="js/update.js"></script>
+    <script type="text/javascript" src="js/installCtrl.js"></script>
+
+<!--3 cards linked to different contents-->
+
+    <style>
+        .card.small{
+            width:30%;
+            left:35%;
+        }
+    </style>
+    <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/notification.png">
+        </div>
+        <div class="card-content grey lighten-3">
+            <span class="card-title activator grey-text text-darken-4">Notification Example<i class="mdi-navigation-more-vert right"></i></span>
+            <p><a href="view/notification.html">Click me to see</a></p>
+        </div>
+        <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Notification Example <i class="mdi-navigation-close right"></i></span>
+            <p>There are two examples available:</p>
+            <p><strong>Toast notification:</strong> the notification will disappeared after certain amount of time.</p>
+            <p><strong>Action notification:</strong> the notification will disappeared only after the user has finished certain action.</p>
+        </div>
+    </div>
+
+    <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/update_up.png">
+        </div>
+        <div class="card-content grey lighten-3">
+            <span class="card-title activator grey-text text-darken-4">Update Example<i class="mdi-navigation-more-vert right"></i></span>
+            <p><a href="view/update.html">Click me to see</a></p>
+        </div>
+    </div>
+
+    <div class="card small">
+        <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="img/installCtrl.png">
+        </div>
+        <div class="card-content grey lighten-3">
+            <span class="card-title activator grey-text text-darken-4">Install Control Example<i class="mdi-navigation-more-vert right"></i></span>
+            <p><a href="view/installCtrl.html">Click me to see</a></p>
+        </div>
+    </div>
+</body>
+</html>

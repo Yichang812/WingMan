@@ -1,0 +1,77 @@
+/*product card format*/
+.product-card{
+    width:600px;
+    min-height: 150px;
+    height: auto;
+    padding:10px 10px 10px 10px;
+}
+.product-icon{
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:36px;
+    height: 36px;
+}
+.product-icon > img{
+    max-width:100%;
+    max-height: 100%;
+}
+.product-name{
+    position: absolute;
+    top:5px;
+    left:50px;
+    font-size:1.7em;
+}
+.release-date, .product-size,.number-download,.product-info{
+    position:relative;
+}
+.release-date{
+    top:23px;
+    left:25px;
+}
+.product-size{
+    top:0;
+    left:230px;
+}
+.number-download{
+    top:-25px;
+    left:360px;
+    color:#4caf50;
+}
+.product-info{
+    top:-30px;
+    left:25px;
+    font-size: 0.9em;
+    color:#9e9e9e;
+}
+.learn-more{
+    position: absolute;
+    bottom:20px;
+    left:50px;
+    font-size: 0.9em;
+    color:#00b0ff;
+}
+.learn-more:hover{
+    cursor:pointer;
+    color: #0091ea;
+}
+.update-btn{
+    position: absolute;
+    top:50px;
+    right:30px;
+
+    font-size: 0.8em;
+    line-height: 27px;
+    padding:0 0 0 1rem;
+    width:70px;
+    height: 25px;
+    color: white;
+}
+.arrow-icon{
+    position: absolute;
+    bottom: 20px;
+    right:20px;
+
+    font-size: 1.4rem;
+}
+/*-----------------------------*/

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../../bower_components/materialize/dist/css/materialize.css"  media="screen,projection"/>
+    <!--Import personal css file-->
+    <link type="text/css" rel="stylesheet" href="../css/notification.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/installCtrl.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/update.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/card.css"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+
+<body>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="../../bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="../../bower_components/jquery-ui/jquery-ui.js"></script>
+<script type="text/javascript" src="../../bower_components/materialize/dist/js/materialize.js"></script>
+
+<!--Import personal js files-->
+<script type="text/javascript" src="../js/notification.js"></script>
+<script type="text/javascript" src="../js/update.js"></script>
+<script type="text/javascript" src="../js/installCtrl.js"></script>
+
+<!--toast function refers to http://materializecss.com/dialogs.html-->
+<a class="notice-btn-1 waves-effect waves-light btn"> Notification (toast)</a>
+<a class="notice-btn-2 waves-effect waves-light btn">Notification (click)</a>
+<div class="noticeContainer">
+    <div class="notice">
+        <div class="noticeHeader-2">
+            <i class="notice-icon mdi-social-notifications-none"></i>
+            <span>Notification</span>
+            <i class="close-icon mdi-navigation-close"></i>
+        </div>
+
+        <div class="noticeContent-2">
+            <span>You need to click the cross to close it!</span>
+            <a class="btn-flat yellow-text" href="#!">Got it</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

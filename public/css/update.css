@@ -1,0 +1,82 @@
+.example_1{
+    position: absolute;
+    left:4%;
+    top:40px;
+    height:auto;
+}
+.example_2{
+    position: absolute;
+    left:34%;
+    top:40px;
+    height:auto;
+}
+.example_3{
+    position: absolute;
+    left:65%;
+    top:40px;
+    height:auto;
+}
+.example_4{
+    position: absolute;
+    left:4%;
+    top:500px;
+}
+
+/*.line{*/
+
+    /*position:absolute;*/
+    /*top:2%;*/
+    /*left:10%;*/
+    /*height:2px;*/
+    /*width:83%;*/
+    /*border-bottom: 1px solid #9e9e9e;*/
+/*}*/
+/*.updateMain{*/
+    /*height:auto;*/
+    /*display: block;*/
+    /*cursor: pointer;*/
+    /*line-height: 3rem;*/
+    /*padding: 0 1rem;*/
+    /*background-color: #fff;*/
+    /*border-bottom: 1px solid #ddd;*/
+/*}*/
+
+/*example-1*/
+.main-panel,.child-panel{
+   position:relative;
+}
+.child-panel{
+    display: none;
+    top:-12px;
+}
+.child-panel .card{
+    margin:0;
+    border-top:none;
+}
+
+.collapsible-panel{
+    position:relative;
+    height:auto;
+}
+/*example-4*/
+.example_4 .product-card{
+    z-index: 2;
+}
+.learn-content{
+    position: relative;
+    top:-195px;
+    height: auto;
+    width:600px;
+    z-index:1;
+}
+.learn-content .card{
+    max-width: 288px;
+    position: relative;
+}
+.learn-video{
+    left:2px;
+}
+.learn-articles{
+    left:15px;
+}
+

@@ -1,0 +1,13 @@
+{
+  "name": "WingMan",
+  "version": "0.0.0",
+  "authors": [
+    "Li Yichang <yichang.li@autodesk.com>"
+  ],
+  "description": "by materialize framwwork",
+  "license": "MIT",
+  "dependencies": {
+    "materialize": "~0.96.1",
+    "jquery-ui": "~1.11.4"
+  }
+}
