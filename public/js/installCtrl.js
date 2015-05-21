@@ -27,6 +27,8 @@ $(document).ready(function(){
     //progress bar animation
     var progress = ($('.progress .determinate').width()/$('.progress').width())*100;
     var progress_bar;
+    var states = ['downloading','downloading','downloading','downloading','installing','installing','installing','installing','configuring','configuring'];
+    var index = 0;
     function updateProgress(){
         progress_bar = setInterval(startProgress,500);
     }
@@ -64,10 +66,17 @@ $(document).ready(function(){
             $('.progress .determinate').width(0)
             progress = ($('.progress .determinate').width()/$('.progress').width())*100;
             pause();
+            index = 0;
         }
 
+        //updating progress bar
         progress+=10;
         $('.progress .determinate').animate({width:progress+'%'});
+        //updating states
+        index ++;
+         $('.progress-state').fadeOut(function(){
+            $(this).text(states[index]).fadeIn();
+        });
     }
 });
 

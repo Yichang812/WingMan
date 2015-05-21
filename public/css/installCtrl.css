@@ -24,10 +24,16 @@
 .progress{
     width:70px;
 }
-
 .progress-bar .close-icon{
     position: absolute;
     top:-1px;
     left:73px;
     font-size: 15px;
+}
+.progress-state{
+    position: absolute;
+    top:15px;
+    left:0;
+    font-size: 12px;
+    color:gray;
 }
