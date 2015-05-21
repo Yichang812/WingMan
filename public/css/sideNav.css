@@ -24,17 +24,17 @@
 }
 #sidebar ul li {
     float: none;
-    overflow: hidden;
 }
 
 #sidebar ul li .active{
-    width:100%;
+    min-width:calc(100% + 5px);
     background-color: #ff9800;
     border-top:1px solid #ff9800;
 }
 
 #sidebar ul li a {
-
+    width:100%;
+    overflow: hidden;
     height: 50px;
     border-top: 1px solid #757575;
     display: block;
