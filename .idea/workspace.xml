@@ -23,33 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="installCtrl.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/view/installCtrl.html">
+      <file leaf-file-name="sideNav.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/view/sideNav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5" vertical-offset="784" max-vertical-offset="1666">
-              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="installCtrl.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/installCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8652576" vertical-offset="654" max-vertical-offset="1513">
-              <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+            <state vertical-scroll-proportion="-26.153847" vertical-offset="0" max-vertical-offset="867">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="installCtrl.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/installCtrl.css">
+      <file leaf-file-name="sideNav.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/sideNav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.17271408" vertical-offset="0" max-vertical-offset="1445">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sideNav.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/sideNav.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1292">
+              <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -78,12 +76,14 @@
         <option value="$PROJECT_DIR$/public/js/notification.js" />
         <option value="$PROJECT_DIR$/public/css/notification.css" />
         <option value="$PROJECT_DIR$/public/js/update.js" />
-        <option value="$PROJECT_DIR$/public/view/sideNav.html" />
-        <option value="$PROJECT_DIR$/public/css/sideNav.css" />
-        <option value="$PROJECT_DIR$/public/js/sideNav.js" />
         <option value="$PROJECT_DIR$/public/css/installCtrl.css" />
         <option value="$PROJECT_DIR$/public/view/installCtrl.html" />
         <option value="$PROJECT_DIR$/public/js/installCtrl.js" />
+        <option value="$PROJECT_DIR$/public/js/installCtrl_new.js" />
+        <option value="$PROJECT_DIR$/public/view/test.html" />
+        <option value="$PROJECT_DIR$/public/css/sideNav.css" />
+        <option value="$PROJECT_DIR$/public/view/sideNav.html" />
+        <option value="$PROJECT_DIR$/public/js/sideNav.js" />
       </list>
     </option>
   </component>
@@ -119,6 +119,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,7 +222,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,7 +229,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="indeter&#9;null&#9;null&#10;progress&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="indeterminate&#9;null&#9;null&#10;indeter&#9;null&#9;null&#10;progress&#9;null&#9;null" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -237,13 +237,8 @@
       <recent name="C:\Users\t_liyi\Desktop\WingMan\public" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.installCtrl.html">
+  <component name="RunManager" selected="JavaScript Debug.sideNav.html (1)">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/WingMan/public/index.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="update.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/WingMan/public/view/update.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -263,12 +258,9 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+    <configuration default="false" name="sideNav.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63343/WingMan/public/view/sideNav.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -281,14 +273,12 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
       <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -296,6 +286,16 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -306,18 +306,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.update.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.installCtrl.html" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.installCtrl.js" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.sideNav.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.installCtrl.html" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.installCtrl.js" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.sideNav.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.sideNav.html (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.installCtrl.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.sideNav.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.installCtrl.js" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.update.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.sideNav.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.installCtrl.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.sideNav.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.installCtrl.js" />
       </list>
     </recent_temporary>
   </component>
@@ -335,25 +335,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1645933" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13540569" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24952199" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13540569" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3138756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3138756" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291866" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -370,9 +370,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13540569" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -688,52 +688,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/materialize/dist/css/materialize.css">
+    <entry file="file://$PROJECT_DIR$/bower_components/jquery-ui/ui/progressbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="99926" max-vertical-offset="134844">
-          <caret line="5892" column="19" selection-start-line="5892" selection-start-column="13" selection-end-line="5892" selection-end-column="19" />
+        <state vertical-scroll-proportion="-0.31439894" vertical-offset="1479" max-vertical-offset="2652">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/update.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49470899" vertical-offset="0" max-vertical-offset="756">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/sideNav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.348723" vertical-offset="291" max-vertical-offset="1666">
-          <caret line="38" column="9" selection-start-line="37" selection-start-column="39" selection-end-line="38" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.08982827" vertical-offset="0" max-vertical-offset="757">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/sideNav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14833006" vertical-offset="223" max-vertical-offset="1241">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/view/sideNav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.153847" vertical-offset="0" max-vertical-offset="884">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/view/installCtrl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5" vertical-offset="784" max-vertical-offset="1666">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,10 +712,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/materialize/dist/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="40076" max-vertical-offset="134844">
+          <caret line="2382" column="35" selection-start-line="2382" selection-start-column="35" selection-end-line="2382" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/view/installCtrl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.5384617" vertical-offset="357" max-vertical-offset="1666">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/installCtrl_new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/view/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/installCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8652576" vertical-offset="654" max-vertical-offset="1513">
-          <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.65457183" vertical-offset="263" max-vertical-offset="2108">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/sideNav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1292">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/view/sideNav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.153847" vertical-offset="0" max-vertical-offset="867">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/sideNav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17271408" vertical-offset="0" max-vertical-offset="1445">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

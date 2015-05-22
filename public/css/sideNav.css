@@ -18,6 +18,8 @@
     font-size: 1.5rem;
 
 }
+
+/*-----tabs-----*/
 #sidebar ul{
     padding:0;
     background-color: #424242;
@@ -28,10 +30,9 @@
 
 #sidebar ul li .active{
     min-width:calc(100% + 5px);
-    background-color: #ff9800;
+    background-color: #ff9800 !important;
     border-top:1px solid #ff9800;
 }
-
 #sidebar ul li a {
     width:100%;
     overflow: hidden;
@@ -49,20 +50,22 @@
     width: 24px;
     height: 24px;
 }
+/*name*/
 #sidebar ul li a span{
     color:#f5f5f5;
     padding: 0 15px 0 40px;
 }
+/*no effect to hover active tab*/
 #sidebar ul li:not(.active):hover {
     background: rgba(255, 255, 255, 0.15);
 }
-
-
 .tab-tip{
     position:relative;
     top:0;
     left:0;
     height:50px;
     width:150px;
-
+}
+.update-tab{
+    display: none;
 }

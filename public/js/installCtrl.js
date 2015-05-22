@@ -25,35 +25,59 @@ $(document).ready(function(){
     });
 
     //progress bar animation
+    var card_delay = 500;
     var progress = ($('.progress .determinate').width()/$('.progress').width())*100;
     var progress_bar;
-    var states = ['downloading','downloading','downloading','downloading','installing','installing','installing','installing','configuring','configuring'];
-    var index = 0;
+    var states = ['downloading','installing','configuring'];
+
+//    update progress bar with a delay of 500ms
     function updateProgress(){
-        progress_bar = setInterval(startProgress,500);
+        progress_bar = setInterval(startProgress,700);
     }
+
+
+//    pause the progress updating
     function pause(){
         console.log('pause');
         $('.update-btn').show();
+        $('.progress-bar').hide();
         clearInterval(progress_bar);
     }
+
+
+
+/* dismiss animation:
+*  when the update on the first card finished,
+*  the second card push the first card up
+*/
     function slidePush(){
         if($('.card-1 .progress-bar').is(':visible')){
-            $('.card-1').animate({top:'-=230px'},500,'swing',function(){$(this).hide()});
-            $('.card-2').animate({top:'-=230px'},500,'swing');
+            $('.card-1').animate({top:'-=230px'},card_delay,'swing',function(){$(this).hide()});
+            $('.card-2').animate({top:'-=230px'},card_delay,'swing');
         }else{
-            $('.card-2').animate({top:'-=230px'},500);
+            $('.card-2').animate({top:'-=230px'},card_delay);
         }
     }
+
+
+
+
+/* dismiss animation:
+*  when the update on the first card finished,
+*  the second card slide up and cover the first card
+*/
     function slideCover(){
         if($('.card-1 .progress-bar').is(':visible')){//card 1 is updating
-            $('.card-2').animate({top:'-=230px'},500,'swing',function(){$('.card-1').hide();});
+            $('.card-2').animate({top:'-=230px'},card_delay,'swing',function(){$('.card-1').hide();});
         }else{
             $('.card-2').zIndex(1);
             $('.card-1').zIndex(2);
-            $('.card-2').animate({top:'-=230px'},500,function(){$(this).hide();});
+            $('.card-2').animate({top:'-=230px'},card_delay,function(){$(this).hide();});
         }
     }
+
+
+
     function startProgress() {
         if(progress === 100) {
             console.log('finish');
@@ -66,18 +90,29 @@ $(document).ready(function(){
             $('.progress .determinate').width(0)
             progress = ($('.progress .determinate').width()/$('.progress').width())*100;
             pause();
-            index = 0;
+            $('.progress-state').text(states[0]);
+
+        }else{
+            //updating progress bar
+            progress+=10;
+            $('.progress .determinate').animate({width:progress+'%'});
+
+            //updating states
+            if(progress === 40){
+                $('.progress-state').fadeOut(function(){
+                    $(this).text(states[1]).fadeIn();
+                });
+            }else if(progress === 70){
+                $('.progress-state').fadeOut(function() {
+                    $(this).text(states[2]).fadeIn();
+                });
+            }
         }
 
-        //updating progress bar
-        progress+=10;
-        $('.progress .determinate').animate({width:progress+'%'});
-        //updating states
-        index ++;
-         $('.progress-state').fadeOut(function(){
-            $(this).text(states[index]).fadeIn();
-        });
     }
 });
+
+
+
 
 
